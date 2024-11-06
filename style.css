@@ -1,0 +1,21 @@
+#tabuleiro{
+    width: 600px;
+    height: auto;
+    border: 1px #000 solid;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+}
+
+.casa{
+    width: 200px;
+    height: 200px;
+    background-color: #c4c4c4;
+    border-left: 1px #fff dotted;
+    border-bottom: 1px #fff dotted;
+    cursor: pointer;
+    
+}
+.casa:hover {
+    background-color: hsla(0 93% 0% / 0.42)
+}
