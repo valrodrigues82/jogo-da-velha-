@@ -21,6 +21,7 @@
    <div class="casa"></div>
    <div class="casa"></div>
 </div>
+<button type="botao-reset"></button>
 <script src="scripts.js">
     </script>
 </body>
