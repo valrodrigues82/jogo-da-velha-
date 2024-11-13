@@ -76,7 +76,6 @@ function checkWinner($board, $player) {
 session_start();
 include 'caminho_das_funcoes.php';
 
-header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET'){
     echo json_encode(['player' => getPlayerTurn()]);
